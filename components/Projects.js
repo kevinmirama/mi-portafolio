@@ -21,8 +21,8 @@ export default function Projects() {
       image: '/images/projects/dashboard.webp',
       category: 'dashboard',
       technologies: ['React', 'Chart.js', 'Material UI', 'Firebase'],
-      demoLink: 'https://example.com',
-      codeLink: 'https://github.com/yourusername/project2'
+      demoLink: 'https://dashboard-react-sable.vercel.app/',
+      codeLink: 'https://github.com/kevinmirama/Dashboard-React'
     },
     {
       id: 3,
