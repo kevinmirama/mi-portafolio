@@ -66,7 +66,7 @@ export default function Projects() {
           </h2>
           <div className="mt-4 max-w-2xl mx-auto">
             <p className="text-xl text-gray-500 dark:text-gray-300">
-              Explora algunos de mis trabajos más recientes.
+              Explora algunos de mis trabajos más recientes
             </p>
           </div>
         </div>
