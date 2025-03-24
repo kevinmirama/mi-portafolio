@@ -41,8 +41,8 @@ export default function Projects() {
       image: '/images/projects/web.jpg',
       category: 'web',
       technologies: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
-      demoLink: 'https://example.com',
-      codeLink: 'https://github.com/yourusername/project4'
+      demoLink: 'https://web-empresarial-five.vercel.app/',
+      codeLink: 'https://github.com/kevinmirama/Web-Empresarial'
     },
   ];
 
