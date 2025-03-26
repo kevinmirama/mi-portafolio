@@ -4,7 +4,6 @@ export default function Projects() {
   const [activeFilter, setActiveFilter] = useState('all');
   
   const projects = [
-   
     {
       id: 2,
       title: 'Dashboard Analytics',
@@ -26,6 +25,16 @@ export default function Projects() {
       demoLink: 'https://web-empresarial-five.vercel.app/',
       codeLink: 'https://github.com/kevinmirama/Web-Empresarial'
     },
+    
+    {
+      id: 5,
+      title: 'Grupo Empresarial Medinuclear',
+      description: 'Portal Web de Empresa de salud colombiana especializada en la detección y prevención de cáncer de mama.',
+      image: '/images/projects/medinuevo.png',
+      category: 'web',
+      technologies: ['React', 'Tailwind CSS', 'Vercel', 'Responsive Design'],
+      demoLink: 'https://grupomedinuclear.com/',
+    }
   ];
 
   const filters = [
