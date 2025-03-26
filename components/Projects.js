@@ -4,16 +4,7 @@ export default function Projects() {
   const [activeFilter, setActiveFilter] = useState('all');
   
   const projects = [
-    {
-      id: 1,
-      title: 'E-commerce Website',
-      description: 'Tienda online completa con carrito de compras, pagos y panel de administración.',
-      image: '/images/projects/ecommerce.jpg',
-      category: 'web',
-      technologies: ['React', 'Next.js', 'Tailwind CSS', 'Stripe'],
-      demoLink: 'https://example.com',
-      codeLink: 'https://github.com/yourusername/project1'
-    },
+   
     {
       id: 2,
       title: 'Dashboard Analytics',
@@ -24,16 +15,7 @@ export default function Projects() {
       demoLink: 'https://dashboard-react-sable.vercel.app/',
       codeLink: 'https://github.com/kevinmirama/Dashboard-React'
     },
-    {
-      id: 3,
-      title: 'App de Gestión de Tareas',
-      description: 'Aplicación para organizar tareas con funcionalidades de arrastrar y soltar.',
-      image: '/images/projects/apptareas.webp',
-      category: 'app',
-      technologies: ['React', 'Redux', 'Styled Components', 'React DnD'],
-      demoLink: 'https://example.com',
-      codeLink: 'https://github.com/yourusername/project3'
-    },
+    
     {
       id: 4,
       title: 'Sitio Web Corporativo',
@@ -49,7 +31,6 @@ export default function Projects() {
   const filters = [
     { name: 'Todos', value: 'all' },
     { name: 'Web', value: 'web' },
-    { name: 'App', value: 'app' },
     { name: 'Dashboard', value: 'dashboard' },
   ];
 
